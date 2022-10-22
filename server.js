@@ -52,9 +52,9 @@ async function main() {
         res.json(bookToDelete)
     })
 
-    app.listen(3001, () => {
+    app.listen(9001, () => {
         liveServer.start({
-            port: 3000,
+            port: 9000,
             logLevel: 0,
             root: './public'
         })
